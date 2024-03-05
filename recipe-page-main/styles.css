@@ -1,0 +1,77 @@
+body{
+    background-color:hsl(30, 54%, 90%);
+}
+ 
+.container{
+    background-color:hsl(0, 0%, 100%);
+    width: 550px;
+    display: block;
+    margin: 100px auto;
+    border-radius:35px;
+    position: relative;
+    padding: 30px
+}
+.img-container{
+    display: flex;
+    justify-content: center; 
+}
+.omlette{
+    width: 550px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 20px;}
+h1 h2 h3 h4 h5 h6{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+strong{
+    color: black
+}
+p{
+    font-size: 14px;
+
+    color: hsl(30, 10%, 34%);
+}
+.preperation-time{
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: 2px 15px
+}
+h4{
+    color: rgba(131, 0, 92, 0.846);
+    margin-bottom: 15px;
+}
+ul{
+    margin-top: 0px;
+    line-height: 30px;
+}
+h2{
+    color: rgb(103, 0, 0);
+    margin-bottom: 15px;
+}
+.instuctions, .ingredients{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+}
+ol, li{
+    margin-bottom: 8px;
+    color: hsl(30, 10%, 34%);
+}
+.nutritinnal-values{
+    line-height: 30px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.nutritinnal-values:last-child{
+    border-bottom: none;
+}
+.values{
+    margin-left: 20px;
+}
+.per-serving{
+    color: rgb(103, 0, 0);
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+}
